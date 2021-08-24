@@ -1,0 +1,173 @@
+*{
+	padding: 0;
+	margin: 0;
+	border:0px;
+	font-family: Georgia,serif;
+}
+
+.logo img {
+    height: 60px;
+    width: auto;
+}
+
+.logo {
+    padding-top: 10px;
+    transition: top 0.3s;
+    height: 80px;
+}
+
+.menu-bg .logo {
+    padding-top: 10px;
+    transition: top 0.3s;
+}
+
+.navbar{
+    display: flex;
+	padding:-10px;
+	background-color: rgb(2, 59, 82); /* Black background color */
+	position: fixed; /* Make it stick/fixed */
+	top: 0; /* Stay on top */
+	width: 100%; /* Full width */
+}
+
+
+.nav-list{
+	display: flex;
+	align-items: center;
+	justify-content:flex-end;
+	padding-top: 15px;
+}
+
+.nav-list li{
+	list-style: none;
+	padding: 0px 20px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+	float: left;
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
+
+
+.nav-list li a:hover{
+    color: rgba(255, 255, 255, 0.623);
+}
+
+.container{
+	text-align: center;
+	padding: 180px;
+
+}
+
+.background{
+	background:rgba(0, 0, 0, 0.514) url('../img/back.jpg');
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-blend-mode:darken;
+	min-height:93vh;
+	padding-bottom: 30px;
+	padding-top: 150px;
+}
+
+.headings{
+	padding: 25px;
+	color: rgb(255, 255, 255);
+}
+
+.options{
+	display: flex;
+	padding: 20px;
+	align-items:center;
+	justify-content:center;
+}
+
+.option{
+	padding:50px;
+}
+
+.user{
+	padding: top 50px;
+	padding-bottom:100px;
+	float: left;
+    position: relative;
+    margin-left: 28%;
+	margin-bottom: -35%;
+}
+
+.x a{
+	padding-left: 25px;
+	padding-right: 20px;
+	
+}
+
+.y a{
+	padding-left: 25px;
+	
+
+}
+
+.btn{
+	border:none;
+	border-radius: 20px;
+	padding: 15px;
+	background:rgb(2, 59, 82); 
+	color:rgb(1, 153, 255);
+	letter-spacing: 1.5px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+button:hover{
+	transform: scale(1.1);
+	box-shadow: 0 12px 16px 0 hsla(209, 99%, 32%, 0.486), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: rgb(2, 58, 82); /* Green */
+    color: white;
+}
+
+footer{
+	text-align: center;
+	background-color: rgb(2, 59, 82);
+	overflow: hidden;
+	color: white;
+	padding-top: 7px;
+}
+
+.btn2{
+	text-decoration: none;
+	margin: 15px;
+	color:black;
+	letter-spacing: 1.5px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.btn2:hover{
+    text-decoration: none;
+	font-size: 110%;
+}
+
+.center{
+	background-color: lightgrey;
+	padding:20px;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+	box-shadow: 0 5px 8px 0 rgba(0,0,0,0.3), 0 7px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+label{
+    display: inline-block;
+    width: 20%;
+    text-align:start;
+}
+
+input, select{
+  display: inline-block;
+  width: 70%;
+  padding: 5px;
+  border-radius: 5px;
+}
